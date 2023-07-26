@@ -2,7 +2,7 @@ import { Article } from '../data.ts'
 import CardAuthor from './CardAuthor.tsx'
 import Share from './Share'
 
-const CardBody = ({ headline, bodyPreview, author, /* profilePic */ date }: Article) => {
+const CardBody = ({ headline, bodyPreview, author, profilePic, date }: Article) => {
   return (
     <div className='desktop:w-[60%] w-full desktop:h-full h-[60%] flex flex-col desktop:py-6 py-8 px-10 justify-between gap-4 pb-4 '>
 
@@ -19,7 +19,7 @@ const CardBody = ({ headline, bodyPreview, author, /* profilePic */ date }: Arti
 
       <div className='flex justify-between items-center relative'>
         
-        <CardAuthor author={author} date={date} /* profilePic={profilePic} */ />
+        <CardAuthor author={author} date={date} profilePic={profilePic} />
 
         <Share />
         
