@@ -1,13 +1,13 @@
 type Author = {
   author: string,
   date: string,
-  profilePic: string
+  //profilePic: string
 }
 
-const CardAuthor = ({ author, date, profilePic}: Author) => {
+const CardAuthor = ({ author, date, /* profilePic */}: Author) => {
   return (
     <div className='flex items-center gap-4'>
-      <div className={`bg-[url('${profilePic}')] h-[2rem] w-[2rem] rounded-full bg-cover bg-center cursor-pointer`}/>
+      <div className={`bg-[url('../assets/avatar-michelle.jpg')] h-[2rem] w-[2rem] rounded-full bg-cover bg-center cursor-pointer`}/>
 
       <div>
         <h2 className='text-[13px] text-dark-gray-blue font-semibold cursor-pointer'>

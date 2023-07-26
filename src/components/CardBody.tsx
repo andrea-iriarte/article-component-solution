@@ -19,7 +19,7 @@ const CardBody = ({ headline, bodyPreview, author, profilePic, date }: Article) 
 
       <div className='flex justify-between items-center relative'>
         
-        <CardAuthor author={author} date={date} profilePic={profilePic} />
+        <CardAuthor author={author} date={date} /* profilePic={profilePic} */ />
 
         <Share />
         
