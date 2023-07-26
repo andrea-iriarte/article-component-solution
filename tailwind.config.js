@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "hero": "url(/src/assetsdrawers.jpg)"
+        "hero": "url(/src/assets/drawers.jpg)"
       },
 
        colors: {
